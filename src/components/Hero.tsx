@@ -13,7 +13,7 @@ const Hero: React.FC = () => {
       />
 
       {/* Dark gradient overlay that keeps the photo visible */}
-      <div className="absolute inset-0 z-10 bg-[linear-gradient(90deg,rgba(0,0,0,0.80)_0%,rgba(0,0,0,0.75)_32%,rgba(0,0,0,0.0)_100%)]" />
+      <div className="absolute inset-0 z-10 bg-[linear-gradient(90deg,rgba(0,0,0,0.85)_0%,rgba(0,0,0,0.80)_32%,rgba(0,0,0,0.0)_100%)]" />
 
       {/* Left-aligned hero content */}
       <div className="relative z-20 flex min-h-screen items-center">
